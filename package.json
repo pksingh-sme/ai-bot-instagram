@@ -1,0 +1,27 @@
+{
+  "name": "nfl-haiku-generator",
+  "version": "1.0.0",
+  "description": "A Node.js project for generating NFL haikus and posting them to Instagram",
+  "main": "index.js",
+ 
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "openai": "^4.72.0",
+    "puppeteer": "^21.3.8"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "NFL",
+    "haiku",
+    "Instagram",
+    "automation"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
