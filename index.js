@@ -63,15 +63,6 @@ async function generateAIText(prompt) {
 
     return response.choices[0]?.text || "";
 
-    // const response = await openai.createChatCompletion({
-    //     model: "gpt-4",
-    //     messages: [
-    //         { role: "system", highlights: systemPrompt },
-    //         { role: "user", highlights: `Create a Haiku from NFL game recaps: ${highlights}`.slice(0, 20000) }
-    //     ]
-    // });
-
-   // return response.data.choices[0].message.content.trim();
 }
 
 // Generate Image using OpenAI
